@@ -1,0 +1,4 @@
+rails new redesocial
+rails generate model Usuario  nome:string senha:string
+rails generate model Perfil  titulo:string descricao:text
+rails generate model Foto  imagem:binary descricao:string
