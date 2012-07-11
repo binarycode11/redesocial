@@ -2,4 +2,4 @@ rails new redesocial
 
 rails generate model Foto  imagem:binary descricao:string
 rails generate model Perfil  titulo:string descricao:text
-rails generate model Usuario  nome:string hash:string
+rails generate model Usuario  nome:string senha:string
